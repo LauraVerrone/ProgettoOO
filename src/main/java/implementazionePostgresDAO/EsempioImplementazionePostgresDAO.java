@@ -1,16 +1,18 @@
-package implementazioniPostgresDAO;
+package implementazionePostgresDAO;
 
 import Database.ConnessioneDatabase;
+import dao.EsempioDAO;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
-public class EsempioImplementazionePostgresDAO implements EsempioDAO {
+public class EsempioImplementazionePostgresDAO implements EsempioDAO{
 
 	private Connection connection;
 
-	public EsempioImplementazionePostgresDAO() {
+	public void EsempioImplementazionePostgresDAO() {
 		try {
 			connection = ConnessioneDatabase.getInstance().connection;
 		} catch (SQLException e) {
@@ -19,9 +21,11 @@ public class EsempioImplementazionePostgresDAO implements EsempioDAO {
 		}
 	}
 	
-	@Override
-	public void esempioQuery() {
 
+	public void esempioQuery() {
+		System.out.println("");
 	}
+
+
 
 }

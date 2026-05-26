@@ -1,7 +1,9 @@
 package model.entita;
 
-import org.veterinario.modello.enumerazioni.StatoAdozione;
-import org.veterinario.modello.enumerazioni.Temperamento;
+
+
+import model.enumerazioni.StatoAdozione;
+import model.enumerazioni.Temperamento;
 
 public abstract class Animale {
     protected int idAnimale;
