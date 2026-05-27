@@ -1,9 +1,7 @@
 package model.entita;
 
-import java.util.List;
-
 public class Volontario extends Personale {
-    private List<Animale> animaliAffidati;
-    private List<RichiestaAdozione> richiesteValutate;
+    public Volontario(String codiceFiscale, String nome, String cognome) {
+        super(codiceFiscale, nome, cognome);
+    }
 }
-

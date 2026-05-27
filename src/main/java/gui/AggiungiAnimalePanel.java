@@ -14,7 +14,7 @@ public class AggiungiAnimalePanel extends JPanel {
         setLayout(new BorderLayout());
 
         inviaNomeButton.addActionListener(e ->{
-            controller.createLibretto(textField1.getText());
+
         });
 
         add(textField1, BorderLayout.NORTH);
