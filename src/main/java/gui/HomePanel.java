@@ -25,8 +25,6 @@ public class HomePanel extends JPanel {
 
         JPanel buttonsPanel = new JPanel(new GridLayout(4, 1, 10, 10));
 
-
-
         aggiungiAnimaleButton.addActionListener(e -> controller.goToAggiungiAnimale());
         aggiungiAdottanteButton.addActionListener(e -> controller.goToAggiungiAdottante());
         adottareButton.addActionListener(e -> controller.goToAdottare());

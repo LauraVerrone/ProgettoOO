@@ -16,25 +16,9 @@
           <text value="Aggiungi animale con libretto sanitario"/>
         </properties>
       </component>
-      <component id="76d39" class="javax.swing.JButton" binding="aggiungiAdottanteButton">
-        <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Registra adottante"/>
-        </properties>
-      </component>
-      <component id="b9f8a" class="javax.swing.JButton" binding="adottareButton">
-        <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Crea richiesta di adozione"/>
-        </properties>
-      </component>
       <component id="f266b" class="javax.swing.JButton" binding="elencoButton">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Visualizza dati in memoria"/>
@@ -46,6 +30,22 @@
         </constraints>
         <properties>
           <text value="Rifugio Animali"/>
+        </properties>
+      </component>
+      <component id="76d39" class="javax.swing.JButton" binding="aggiungiAdottanteButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Registra adottante"/>
+        </properties>
+      </component>
+      <component id="b9f8a" class="javax.swing.JButton" binding="adottareButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Crea richiesta di adozione"/>
         </properties>
       </component>
     </children>
