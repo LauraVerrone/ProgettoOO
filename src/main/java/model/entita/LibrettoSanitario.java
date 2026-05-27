@@ -11,12 +11,7 @@ public class LibrettoSanitario {
     private int etaStimata;
     private Veterinario veterinarioResponsabile;
 
-    public LibrettoSanitario(String idLibrettoSanitario,
-                             String razza,
-                             String vaccinazioni,
-                             StatoSalute statoSalute,
-                             int etaStimata,
-                             Veterinario veterinarioResponsabile) {
+    public LibrettoSanitario(String idLibrettoSanitario, String razza, String vaccinazioni, StatoSalute statoSalute, int etaStimata, Veterinario veterinarioResponsabile) {
         if (veterinarioResponsabile == null) {
             throw new IllegalArgumentException("Solo un veterinario puo' creare il libretto sanitario.");
         }
@@ -57,11 +52,7 @@ public class LibrettoSanitario {
         return statoSalute == StatoSalute.SANO;
     }
 
-    public void modificaDatiSanitari(String razza,
-                                     String vaccinazioni,
-                                     StatoSalute statoSalute,
-                                     int etaStimata,
-                                     Veterinario veterinario) {
+    public void modificaDatiSanitari(String razza, String vaccinazioni, StatoSalute statoSalute, int etaStimata, Veterinario veterinario) {
         if (veterinario == null) {
             throw new IllegalArgumentException("Solo un veterinario puo' modificare il libretto sanitario.");
         }

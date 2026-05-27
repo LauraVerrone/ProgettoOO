@@ -8,10 +8,7 @@ public class RichiestaAdozione {
     private Animale animale;
     private Volontario volontario;
 
-    public RichiestaAdozione(String dataAdozione,
-                             Adottante adottante,
-                             Animale animale,
-                             Volontario volontario) {
+    public RichiestaAdozione(String dataAdozione, Adottante adottante, Animale animale, Volontario volontario) {
         setDataAdozione(dataAdozione);
         setAdottante(adottante);
         setAnimale(animale);

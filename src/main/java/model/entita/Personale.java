@@ -5,10 +5,7 @@ public abstract class Personale {
     protected String nome;
     protected String cognome;
 
-    public Personale(String codiceFiscale, String nome, String cognome) {
-        setCodiceFiscale(codiceFiscale);
-        setNome(nome);
-        setCognome(cognome);
+    public Personale(String codiceFiscale, String nome, String cognome) {setCodiceFiscale(codiceFiscale);setNome(nome);setCognome(cognome);
     }
 
     public String getCodiceFiscale() {

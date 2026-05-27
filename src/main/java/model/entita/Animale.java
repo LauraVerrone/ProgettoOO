@@ -12,11 +12,7 @@ public abstract class Animale {
     protected Temperamento temperamento;
     protected LibrettoSanitario librettoSanitario;
 
-    public Animale(String idAnimale,
-                   String nome,
-                   String sesso,
-                   Temperamento temperamento,
-                   LibrettoSanitario librettoSanitario) {
+    public Animale(String idAnimale, String nome, String sesso, Temperamento temperamento, LibrettoSanitario librettoSanitario) {
         setIdAnimale(idAnimale);
         setNome(nome);
         setSesso(sesso);

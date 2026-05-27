@@ -8,12 +8,7 @@ public class Adottante {
     private boolean esperienzaPregressa;
     private boolean disponibilitaGiardino;
 
-    public Adottante(String codiceFiscale,
-                     String nome,
-                     String cognome,
-                     String telefono,
-                     boolean esperienzaPregressa,
-                     boolean disponibilitaGiardino) {
+    public Adottante(String codiceFiscale, String nome, String cognome, String telefono, boolean esperienzaPregressa, boolean disponibilitaGiardino) {
         setCodiceFiscale(codiceFiscale);
         setNome(nome);
         setCognome(cognome);
@@ -22,33 +17,19 @@ public class Adottante {
         this.disponibilitaGiardino = disponibilitaGiardino;
     }
 
-    public String getCodiceFiscale() {
-        return codiceFiscale;
-    }
+    public String getCodiceFiscale() {return codiceFiscale;}
 
-    public void setCodiceFiscale(String codiceFiscale) {
-        this.codiceFiscale = controllaTesto(codiceFiscale, "codice fiscale adottante");
-    }
+    public void setCodiceFiscale(String codiceFiscale) {this.codiceFiscale = controllaTesto(codiceFiscale, "codice fiscale adottante");}
 
-    public String getNome() {
-        return nome;
-    }
+    public String getNome() {return nome;}
 
-    public void setNome(String nome) {
-        this.nome = controllaTesto(nome, "nome adottante");
-    }
+    public void setNome(String nome) {this.nome = controllaTesto(nome, "nome adottante");}
 
-    public String getCognome() {
-        return cognome;
-    }
+    public String getCognome() {return cognome;}
 
-    public void setCognome(String cognome) {
-        this.cognome = controllaTesto(cognome, "cognome adottante");
-    }
+    public void setCognome(String cognome) {this.cognome = controllaTesto(cognome, "cognome adottante");}
 
-    public String getTelefono() {
-        return telefono;
-    }
+    public String getTelefono() {return telefono;}
 
     public void setTelefono(String telefono) {
         this.telefono = controllaTesto(telefono, "telefono");

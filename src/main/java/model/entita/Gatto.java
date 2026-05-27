@@ -6,12 +6,7 @@ import model.enumerazioni.Temperamento;
 public class Gatto extends Animale {
     private boolean indoor;
 
-    public Gatto(String idAnimale,
-                 String nome,
-                 String sesso,
-                 Temperamento temperamento,
-                 LibrettoSanitario librettoSanitario,
-                 boolean indoor) {
+    public Gatto(String idAnimale, String nome, String sesso, Temperamento temperamento, LibrettoSanitario librettoSanitario, boolean indoor) {
         super(idAnimale, nome, sesso, temperamento, librettoSanitario);
         this.indoor = indoor;
     }

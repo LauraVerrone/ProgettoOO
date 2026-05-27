@@ -6,12 +6,7 @@ import model.enumerazioni.Temperamento;
 public class Cane extends Animale {
     private Taglia taglia;
 
-    public Cane(String idAnimale,
-                String nome,
-                String sesso,
-                Temperamento temperamento,
-                LibrettoSanitario librettoSanitario,
-                Taglia taglia) {
+    public Cane(String idAnimale, String nome, String sesso, Temperamento temperamento, LibrettoSanitario librettoSanitario, Taglia taglia) {
         super(idAnimale, nome, sesso, temperamento, librettoSanitario);
         setTaglia(taglia);
     }
