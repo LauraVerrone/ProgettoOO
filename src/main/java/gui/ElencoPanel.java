@@ -22,13 +22,11 @@ public class ElencoPanel extends JPanel {
         setLayout(new BorderLayout(10, 10));
         setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
-        riepilogoTextArea = new JTextArea();
+
         riepilogoTextArea.setEditable(false);
         add(new JScrollPane(riepilogoTextArea), BorderLayout.CENTER);
 
-        JPanel buttonsPanel = new JPanel(new GridLayout(1, 2, 10, 10));
-        aggiornaButton = new JButton("Aggiorna elenco");
-        indietroButton = new JButton("Torna alla home");
+        buttonsPanel = new JPanel(new GridLayout(1, 2, 10, 10));
 
         aggiornaButton.addActionListener(e -> aggiornaRiepilogo());
         indietroButton.addActionListener(e -> controller.goToHome());

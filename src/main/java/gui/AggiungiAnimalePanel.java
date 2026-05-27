@@ -7,20 +7,13 @@ import java.awt.*;
 
 public class AggiungiAnimalePanel extends JPanel {
     private JPanel panel1;
-    private JTextField textField1;
-    private JButton inviaNomeButton;
+    private JButton salva;
+    private JLabel title;
 
     public AggiungiAnimalePanel(Controller controller){
         setLayout(new BorderLayout());
 
-        inviaNomeButton.addActionListener(e ->{
-
-        });
-
-        add(textField1, BorderLayout.NORTH);
-        add(inviaNomeButton, BorderLayout.SOUTH);
-        add(panel1, BorderLayout.CENTER);
-
+        add(title);
     }
 
 }
